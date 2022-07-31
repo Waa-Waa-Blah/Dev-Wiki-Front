@@ -6,8 +6,9 @@ module.exports = {
 	root: true,
 	// 추가적인 규칙들을 적용
 	extends: [
+		'plugin:vue/vue3-essential',
 		'eslint:recommended',
-		'plugin:vue/essential',
+		'@vue/eslint-config-prettier',
 		'prettier',
 		'plugin:prettier/recommended',
 	],
